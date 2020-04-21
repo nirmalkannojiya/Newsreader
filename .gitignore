@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Import request 
+
+r = request.get(http://newsapi.org/v2/everything?q=bitcoin&from=2020-03-21&sortBy=publishedAt&apiKey=API_KEY)
+def speak(str):
+  From win32com.client import dispatch
+  Speak=dispatch(sapi.service)
+  Speak.speak(str)
+
+
+if __name__=="__main__":
+   Speak(r)
